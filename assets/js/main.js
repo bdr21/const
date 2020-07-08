@@ -237,12 +237,12 @@ $(function () {
 
 
 //  file chosen 
-filechosen = document.getElementById("filechosen")
-uploadbtn = document.getElementById("contact-subject")
-uploadbtn.addEventListener("change", () => {
-if (uploadbtn.value) {
-    filechosen.innerHTML = uploadbtn.value.match(/[\/\\]([\w\d\s\.\-\(\)]+)$/)[1];
-} else {
-    filechosen.innerHTML = "Pas de fichier sélectionné"
-}});
+// filechosen = document.getElementById("filechosen")
+// uploadbtn = document.getElementById("contact-subject")
+// uploadbtn.addEventListener("change", () => {
+// if (uploadbtn.value) {
+//     filechosen.innerHTML = uploadbtn.value.match(/[\/\\]([\w\d\s\.\-\(\)]+)$/)[1];
+// } else {
+//     filechosen.innerHTML = "Pas de fichier sélectionné"
+// }});
 // file chosen
