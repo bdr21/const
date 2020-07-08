@@ -221,9 +221,9 @@ $(function () {
         submitHandler: function (contactForm) {
             $(contactResult, contactForm).html('Please Wait...');
             $.ajax({
-                type: "POST",
-                data: $(contactForm).serialize(),
-                timeout: 20000,
+                // type: "POST",
+                // data: $(contactForm).serialize(),
+                // timeout: 20000,
                 success: function (msg) {
                     $(contactResult, contactForm).html('<div class="alert alert-success" role="alert"><strong>Thank you. We will contact you shortly.</strong></div>').delay(3000).fadeOut(2000);
                 },
