@@ -213,17 +213,6 @@ $(function () {
     $(".portfolio-filter li a").on("click", function (e) {
         e.preventDefault();
     });
-
-    var contactForm = $("#contactForm"),
-        contactResult = $('.contact-result');
-    contactForm.validate({
-        debug: false,
-        submitHandler: function (contactForm) {
-            $(contactResult, contactForm).html('Please Wait...');
-            $(contactResult, contactForm).html('<div class="alert alert-success" role="alert"><strong>Thank you. We will contact you shortly.</strong></div>').delay(3000).fadeOut(2000);
-            return false;
-        }
-    });
 });
 
 
