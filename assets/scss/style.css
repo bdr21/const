@@ -58,6 +58,33 @@
 /*-------------------------- 
       Global Styles
 ---------------------------*/
+#popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: white;
+  color: #28b485;
+  /* border: 1p; */
+  border-radius: 3px;
+  z-index: 20;
+  padding: 25px;
+  transition: all .3s;
+  -webkit-font-smoothing: antialiased;
+}
+#popup:target {
+  display: block;
+}
+#popupclose {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateX(40%) translateY(-40%);
+}
+#popupclose img {
+  height: 30px;
+}
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
