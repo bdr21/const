@@ -80,11 +80,14 @@ $(function () {
     }
   });
   // Animate Body after Clicking on Scroll Top Button
-  // $scrollTopBtn.on('click', function () {
-  //     $('html, body').animate({
-  //         scrollTop: 0
-  //     }, 500);
-  // });
+  $scrollTopBtn.on("click", function () {
+    $("html, body").animate(
+      {
+        scrollTop: 0,
+      },
+      500
+    );
+  });
 
   /*==========   Set Background-img to section   ==========*/
   $(".bg-img").each(function () {
