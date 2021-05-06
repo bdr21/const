@@ -65,33 +65,6 @@
 .blue-color {
   color: #36bde0 !important;
 }
-.prk-nous {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 15rem;
-  background: #37bde0;
-}
-.prk-nous img {
-  height: 100%;
-}
-#contactPageServices {
-  margin-top: 5rem;
-}
-.jcc {
-  justify-content: center;
-}
-.contactPageHeader.header-transparent .nav__item .nav__item-link,
-.contactPageHeader.header-transparent.header-layout1 .contact__number a,
-.contactPageHeader.header-transparent.header-layout1 .contact__number i {
-  color: black;
-}
-.contactPageHeader.header-transparent.header-layout1 .contact__number {
-  border-color: rgba(27, 26, 26, 0.1);
-}
-.contactPageHeader.header-transparent.header-layout1 .contact__number i {
-  border-color: rgba(27, 26, 26, 0.25);
-}
 
 #popup {
   display: none;
@@ -440,6 +413,9 @@ svg {
 
 .mb-100 {
   margin-bottom: 100px !important;
+}
+.mb-140 {
+  margin-bottom: 140px !important;
 }
 
 .mt--100 {
@@ -7507,3 +7483,74 @@ textarea.form-control {
   }
 }
 /*# sourceMappingURL=style.css.map */
+.prk-nous {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+  background: #37bde0;
+}
+.prk-nous img {
+  height: 100%;
+}
+#contactPageServices {
+  margin-top: 5rem;
+}
+.jcc {
+  justify-content: center;
+}
+.contactPageHeader.header-transparent .nav__item .nav__item-link,
+.contactPageHeader.header-transparent.header-layout1 .contact__number a,
+.contactPageHeader.header-transparent.header-layout1 .contact__number i {
+  color: black;
+}
+.contactPageHeader.header-transparent.header-layout1 .contact__number {
+  border-color: rgba(27, 26, 26, 0.1);
+}
+.contactPageHeader.header-transparent.header-layout1 .contact__number i {
+  border-color: rgba(27, 26, 26, 0.25);
+}
+.partenaires {
+  display: flex;
+  align-items: center;
+}
+.imgs-block {
+  display: flex;
+}
+.about__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-layout2 .video__box {
+  left: unset;
+  -webkit-transform: unset;
+  transform: unset;
+  bottom: unset;
+}
+
+.about-layout2 .video__box .video__btn {
+  left: unset;
+  -webkit-transform: unset;
+  transform: unset;
+  top: unset;
+  padding-left: unset;
+}
+.video__btn {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  padding-left: 70px;
+  height: 70px;
+}
+
+.video__btn .video__player {
+  position: unset;
+  top: unset;
+  left: unset;
+}

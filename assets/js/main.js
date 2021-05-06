@@ -224,21 +224,31 @@ $(function () {
 //  file chosen
 filechosen = document.getElementById("filechosen");
 uploadbtn = document.getElementById("contact-subject");
-uploadbtn.addEventListener("change", () => {
-  if (uploadbtn.value) {
-    filechosen.innerHTML = uploadbtn.value.match(
-      /[\/\\]([\w\d\s\.\-\(\)]+)$/
-    )[1];
-  } else {
-    filechosen.innerHTML = "Pas de fichier sélectionné";
-  }
-});
 // file chosen
+if (uploadbtn)
+  uploadbtn.addEventListener("change", () => {
+    if (uploadbtn.value) {
+      filechosen.innerHTML = uploadbtn.value.match(
+        /[\/\\]([\w\d\s\.\-\(\)]+)$/
+      )[1];
+    } else {
+      filechosen.innerHTML = "Pas de fichier sélectionné";
+    }
+  });
 
 // popup
 
 const popup = document.getElementById("popup");
-document.getElementById("popupclose").addEventListener("click", () => {
-  popup.style.display = "none";
-  console.log("success");
-});
+const ppclose = document.getElementById("popupclose");
+if (ppclose)
+  ppclose.addEventListener("click", () => {
+    popup.style.display = "none";
+    console.log("success");
+  });
+window.onload = function () {
+  let partenaires = document.querySelector(
+    ".clients .container .row .slick-col .slick-carousel .slick-list .slick-track"
+  );
+  console.log(partenaires);
+  if (partenaires) partenaires.classList.add("partenaires");
+};
