@@ -13,7 +13,7 @@
     03- Sticky Navbar
     04- Search Popup 
     05- Scroll Top Button
-    06-  Scroll Top Button
+    06- Scroll Top Button
     07- Set Background-img to section 
     08- Add active class to accordions
     09- Load More Items
@@ -46,17 +46,44 @@ $(function () {
   });
 
   /*==========   Sticky Navbar   ==========*/
+  // $win.on("scroll", function () {
+  //   if ($win.width() >= 992) {
+  //     var $navbar = $(".header");
+  //     var sticky = $navbar.offsetTop;
+  //     if (window.pageYOffset >= sticky) {
+  //       $navbar.addClass("sticky");
+  //     } else {
+  //       $navbar.removeClass("sticky");
+  //     }
+  //   }
+  // });
+  /*==========   Sticky Navbar   ==========*/
+  var navbar = document.querySelector(".header");
+  console.log("-----------> ");
+  console.log(navbar);
+  var sticky = navbar.offsetTop;
+  // $win.on("scroll", function () {
+  //   if ($win.width() >= 992) {
+  //     var $navbar = $(".header");
+  //     if ($navbar[0].getBoundingClientRect().top < 0) {
+  //       $navbar.addClass("sticky");
+  //     } else if (window.pageYOffset < sticky) {
+  //       console.log("scrol-");
+  //       navbar.classList.remove("sticky");
+  //     }
+  //   }
+  // });
   $win.on("scroll", function () {
-    if ($win.width() >= 992) {
-      var $navbar = $(".sticky-navbar");
-      if ($win.scrollTop() > 200) {
-        $navbar.addClass("fixed-navbar");
-      } else {
-        $navbar.removeClass("fixed-navbar");
-      }
+    if (window.pageYOffset >= sticky) {
+      console.log("scrol+");
+      navbar.classList.add("sticky");
+    } else {
+      console.log("scrol-");
+      console.log(window.pageYOffset);
+      console.log(sticky);
+      navbar.classList.remove("sticky");
     }
   });
-
   /*==========  Search Popup  ==========*/
   $(".search-popup-trigger").on("click", function (e) {
     e.preventDefault();
@@ -97,7 +124,8 @@ $(function () {
       .css({
         "background-image": "url(" + imgSrc + ")",
         "background-size": "cover",
-        "background-position": "center",
+        "background-position": "top center",
+        "background-repeat": "no-repeat",
       });
     $(this).parent().addClass("bg-img");
     if ($(this).hasClass("background-size-auto")) {
