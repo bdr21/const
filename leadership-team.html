@@ -31,21 +31,32 @@
       <!-- =========================
         Header
     =========================== -->
+      <div class="logo-top-container">
+        <img
+          src="assets/images/logo/logofinal.png"
+          class="logo-top"
+          alt="logo"
+        />
+      </div>
+      <!-- /.Header -->
+      <!-- =========================
+        Header
+    =========================== -->
       <header class="header header-transparent header-layout1">
         <nav class="navbar navbar-expand-lg sticky-navbar">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-              <img
-                src="assets/images/logo/logo-light.png"
-                class="logo-light"
-                alt="logo"
-              />
-              <img
-                src="assets/images/logo/logo-dark.png"
-                class="logo-dark"
-                alt="logo"
-              />
-            </a>
+            <!-- <a class="navbar-brand" href="index.html">
+          <img
+            src="assets/images/logo/logofinal.png"
+            class="logo-light"
+            alt="logo"
+          />
+          <img
+            src="assets/images/logo/logofinal.png"
+            class="logo-dark"
+            alt="logo"
+          />
+        </a> -->
             <button class="navbar-toggler" type="button">
               <span class="menu-lines"><span></span></span>
             </button>
@@ -57,34 +68,12 @@
                     class="dropdown-toggle nav__item-link active"
                     >Accueil</a
                   >
-                  <i class="fa fa-angle-down" data-toggle="dropdown"></i>
-                  <ul class="dropdown-menu">
-                    <li class="nav__item">
-                      <a href="index.html" class="nav__item-link"
-                        >Home Moderm</a
-                      >
-                    </li>
-                    <!-- /.nav-item -->
-                    <li class="nav__item">
-                      <a href="home-classic.html" class="nav__item-link"
-                        >Home classic</a
-                      >
-                    </li>
-                    <!-- /.nav-item -->
-                    <li class="nav__item">
-                      <a href="home-architecture.html" class="nav__item-link"
-                        >Home Architecture</a
-                      >
-                    </li>
-                    <!-- /.nav-item -->
-                  </ul>
-                  <!-- /.dropdown-menu -->
                 </li>
                 <!-- /.nav-item -->
                 <li class="nav__item with-dropdown">
                   <a href="about-us.html" class="dropdown-toggle nav__item-link"
-                    >Expert-Scope</a
-                  >
+                    >Imposur<i class="fa fa-angle-down down-arrow"></i>
+                  </a>
                   <i class="fa fa-angle-down" data-toggle="dropdown"></i>
                   <ul class="dropdown-menu">
                     <li class="nav__item">
@@ -120,8 +109,8 @@
                 <!-- /.nav-item -->
                 <li class="nav__item with-dropdown">
                   <a href="services.html" class="dropdown-toggle nav__item-link"
-                    >Services</a
-                  >
+                    >Services<i class="fa fa-angle-down down-arrow"></i
+                  ></a>
                   <i class="fa fa-angle-down" data-toggle="dropdown"></i>
                   <ul class="dropdown-menu">
                     <li class="nav__item">
@@ -165,7 +154,7 @@
                     </li>
                     <!-- /.nav-item -->
                     <!-- <li class="nav__item"><a href="services-single-service.html" class="nav__item-link">Interior
-                      Design</a></li> -->
+                Design</a></li> -->
                     <!-- /.nav-item -->
                   </ul>
                   <!-- /.dropdown-menu -->
@@ -175,8 +164,8 @@
                   <a
                     href="projects-grid.html"
                     class="dropdown-toggle nav__item-link"
-                    >Projets</a
-                  >
+                    >Projets<i class="fa fa-angle-down down-arrow"></i
+                  ></a>
                   <i class="fa fa-angle-down" data-toggle="dropdown"></i>
                   <ul class="dropdown-menu">
                     <li class="nav__item">
@@ -184,19 +173,16 @@
                         >projects grid</a
                       >
                     </li>
-                    <!-- /.nav-item -->
                     <li class="nav__item">
                       <a href="projects-standard.html" class="nav__item-link"
                         >projects standard</a
                       >
                     </li>
-                    <!-- /.nav-item -->
                     <li class="nav__item">
                       <a href="projects-carousel.html" class="nav__item-link"
                         >projects carousel</a
                       >
                     </li>
-                    <!-- /.nav-item -->
                     <li class="nav__item">
                       <a
                         href="projects-single-project.html"
@@ -204,50 +190,73 @@
                         >projects single</a
                       >
                     </li>
-                    <!-- /.nav-item -->
                   </ul>
                   <!-- /.dropdown-menu -->
+                </li>
+                <li class="nav__item with-dropdown">
+                  <a href="index.html" class="dropdown-toggle nav__item-link"
+                    >Produits et Partenaires<i
+                      class="fa fa-angle-down down-arrow"
+                    ></i
+                  ></a>
+                </li>
+                <li class="nav__item with-dropdown">
+                  <a href="index.html" class="dropdown-toggle nav__item-link"
+                    >Expert Projets "clés en mains"</a
+                  >
+                </li>
+                <li class="nav__item with-dropdown">
+                  <a href="contact.html" class="dropdown-toggle nav__item-link"
+                    >Contact</a
+                  >
                 </li>
                 <!-- /.nav-item -->
-                <li class="nav__item with-dropdown">
-                  <a href="blog.html" class="dropdown-toggle nav__item-link"
-                    >Actualités & Media</a
-                  >
-                  <i class="fa fa-angle-down" data-toggle="dropdown"></i>
-                  <ul class="dropdown-menu">
-                    <li class="nav__item">
-                      <a href="blog.html" class="nav__item-link">Blog Grid</a>
-                    </li>
-                    <!-- /.nav-item -->
-                    <li class="nav__item">
-                      <a href="blog-single-post.html" class="nav__item-link"
-                        >Single Blog Post</a
-                      >
-                    </li>
-                    <!-- /.nav-item -->
-                  </ul>
-                  <!-- /.dropdown-menu -->
-                </li>
+                <!-- <li class="nav__item with-dropdown">
+            <a href="blog.html" class="dropdown-toggle nav__item-link"
+              >Actualités & Media</a
+            > -->
+                <!-- <i class="fa fa-angle-down" data-toggle="dropdown"></i> -->
+                <!-- <ul class="dropdown-menu">
+              <li class="nav__item">
+                <a href="blog.html" class="nav__item-link">Blog Grid</a>
+              </li>
+              <!-- /.nav-item -->
+                <!-- <li class="nav__item">
+                <a href="blog-single-post.html" class="nav__item-link"
+                  >Single Blog Post</a
+                >
+              </li> -->
+                <!-- /.nav-item -->
+                <!-- </ul> -->
+                <!-- /.dropdown-menu -->
+                <!-- </li> -->
                 <!-- /.nav-item -->
                 <!-- <li class="nav__item">
-                <a href="contact.html" class="nav__item-link">Contacter nous</a>
-              </li>/.nav-item -->
-                <li class="nav__item nav__item-btn d-none d-md-block">
-                  <a
-                    href="contact.html"
-                    class="btn btn__primary action__btn-request"
-                  >
-                    <span>Contacter nous</span><i class="icon-arrow-right"></i>
-                  </a>
-                </li>
+          <a href="contact.html" class="nav__item-link">Contacter nous</a>
+        </li>/.nav-item -->
+                <!-- <li
+              class="
+                nav__item nav__item-btn
+                d-none d-md-block
+                contactLiMainPage
+              "
+            >
+              <a
+                href="contact.html"
+                id="contactBtnMainPage"
+                class="btn btn__primary action__btn-request"
+              >
+                <span>Nous Contacter</span><i class="icon-arrow-right"></i>
+              </a>
+            </li> -->
               </ul>
               <!-- /.navbar-nav -->
             </div>
             <!-- /.navbar-collapse -->
-            <div class="contact__number d-flex align-items-center">
-              <i class="icon-phone"></i>
-              <a href="tel:+212661267025">+212 661-267-025</a>
-            </div>
+            <!-- <div class="contact__number d-flex align-items-center">
+        <i class="icon-phone"></i>
+        <a href="tel:+212664012103">+212 664-012-103</a>
+      </div> -->
             <!-- /.contact__numbr -->
           </div>
           <!-- /.container -->
@@ -255,12 +264,16 @@
         <!-- /.navabr -->
       </header>
       <!-- /.Header -->
-
       <!-- ========================
        page title 
     =========================== -->
       <section
-        class="page-title page-title-layout4 bg-overlay bg-overlay-4 bg-parallax text-center"
+        id="pageTitleModified"
+        class="
+          page-title page-title-layout4
+          bg-overlay bg-overlay-4 bg-parallax
+          text-center
+        "
       >
         <div class="bg-img">
           <img src="assets/images/page-titles/5.jpg" alt="background" />
@@ -269,19 +282,6 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 offset-xl-3">
               <h1 class="pagetitle__heading">Notre équipe</h1>
-              <nav>
-                <ol class="breadcrumb justify-content-center mb-0">
-                  <li class="breadcrumb-item">
-                    <a href="index.html">Accueil</a>
-                  </li>
-                  <li class="breadcrumb-item">
-                    <a href="about-us.html">Expert-Scope</a>
-                  </li>
-                  <li class="breadcrumb-item active" aria-current="page">
-                    Notre Équipe
-                  </li>
-                </ol>
-              </nav>
             </div>
             <!-- /.col-xl-6 -->
           </div>
@@ -289,286 +289,70 @@
         </div>
         <!-- /.container -->
       </section>
+      <section class="leadership-team">
+        <div class="container">
+          <p class="leadership-team__desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea fugit
+            et quas vero error mollitia ipsam veritatis laudantium similique
+            temporibus quisquam, nisi beatae laboriosam officiis, iste odio
+            molestiae quibusdam, deserunt rem? Rem suscipit libero tempora
+            nesciunt. Animi possimus rerum eos saepe rem nam optio, ea debitis
+            earum commodi beatae eveniet quasi ullam voluptas mollitia
+            dignissimos laudantium at voluptatem ad voluptatibus impedit
+            reiciendis in! Ab magni eaque velit recusandae, ullam non.
+            Exercitationem impedit incidunt debitis accusantium modi, minima
+            quia recusandae, repellat similique eum alias. Fugiat aliquid
+            maiores quia facilis eveniet quaerat nisi voluptatem ea obcaecati
+            recusandae. In nesciunt eaque aspernatur magnam alias eligendi error
+            vitae dolorem esse ullam, animi assumenda dicta. Eos mollitia
+            aspernatur harum, deserunt impedit dolores ipsam molestiae, nihil
+            quas alias atque delectus saepe vero odio eaque? Pariatur et
+            dignissimos, iure, excepturi maiores modi, nobis tempore eveniet
+            quod asperiores velit placeat aperiam earum id ea perferendis
+            deserunt necessitatibus obcaecati!
+          </p>
+        </div>
+      </section>
       <!-- /.page-title -->
 
       <!-- ========================
         Team layout 1
     ========================== -->
-      <section class="team-layout1 text-center pb-30">
-        <div class="container">
-          <div class="row">
-            <!-- Member #1 -->
-            <div class="col-sm-6 col-md-4 col-lg-4">
-              <div class="member">
-                <div class="member__img">
-                  <img src="assets/images/team/1.png" alt="member img" />
-                  <div class="member__hover">
-                    <div class="member__content-inner">
-                      <ul
-                        class="social__icons justify-content-center list-unstyled mb-0"
-                      >
-                        <li>
-                          <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-instagram"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                      </ul>
-                      <!-- /.social-icons -->
-                    </div>
-                    <!-- /.member-content-inner -->
-                  </div>
-                  <!-- /.member-hover -->
-                </div>
-                <!-- /.member-img -->
-                <div class="member__info">
-                  <h5 class="member__name">Mike Dooley</h5>
-                  <p class="member__desc">Chief Executive</p>
-                </div>
-                <!-- /.member-info -->
-              </div>
-              <!-- /.member -->
-            </div>
-            <!-- /.col-lg-4 -->
-            <!-- Member #2 -->
-            <div class="col-sm-6 col-md-4 col-lg-4">
-              <div class="member">
-                <div class="member__img">
-                  <img src="assets/images/team/2.png" alt="member img" />
-                  <div class="member__hover">
-                    <div class="member__content-inner">
-                      <ul
-                        class="social__icons justify-content-center list-unstyled mb-0"
-                      >
-                        <li>
-                          <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-instagram"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                      </ul>
-                      <!-- /.social-icons -->
-                    </div>
-                    <!-- /.member-content-inner -->
-                  </div>
-                  <!-- /.member-hover -->
-                </div>
-                <!-- /.member-img -->
-                <div class="member__info">
-                  <h5 class="member__name">Michael Brian</h5>
-                  <p class="member__desc">Managing Director</p>
-                </div>
-                <!-- /.member-info -->
-              </div>
-              <!-- /.member -->
-            </div>
-            <!-- /.col-lg-4 -->
-            <!-- Member #3 -->
-            <div class="col-sm-6 col-md-4 col-lg-4">
-              <div class="member">
-                <div class="member__img">
-                  <img src="assets/images/team/3.png" alt="member img" />
-                  <div class="member__hover">
-                    <div class="member__content-inner">
-                      <ul
-                        class="social__icons justify-content-center list-unstyled mb-0"
-                      >
-                        <li>
-                          <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-instagram"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                      </ul>
-                      <!-- /.social-icons -->
-                    </div>
-                    <!-- /.member-content-inner -->
-                  </div>
-                  <!-- /.member-hover -->
-                </div>
-                <!-- /.member-img -->
-                <div class="member__info">
-                  <h5 class="member__name">Chris Wensel</h5>
-                  <p class="member__desc">Vice President</p>
-                </div>
-                <!-- /.member-info -->
-              </div>
-              <!-- /.member -->
-            </div>
-            <!-- /.col-lg-4 -->
-          </div>
-          <!-- /.row -->
-        </div>
-        <!-- /.container -->
-      </section>
       <!-- /.Team layout 1  -->
 
       <!-- ========================
         Team layout 2
     ========================== -->
-      <section class="team-layout2 text-center pt-0 pb-30">
-        <div class="container">
-          <div class="row">
-            <!-- Member #1 -->
-            <div class="col-sm-6 col-md-6 col-lg-3">
-              <div class="member">
-                <div class="member__img">
-                  <img src="assets/images/team/4.png" alt="member img" />
-                  <div class="member__hover">
-                    <div class="member__content-inner">
-                      <ul
-                        class="social__icons justify-content-center list-unstyled mb-0"
-                      >
-                        <li>
-                          <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-instagram"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                      </ul>
-                      <!-- /.social-icons -->
-                    </div>
-                    <!-- /.member-content-inner -->
-                  </div>
-                  <!-- /.member-hover -->
-                </div>
-                <!-- /.member-img -->
-                <div class="member__info">
-                  <h5 class="member__name">Richard Muldoone</h5>
-                  <p class="member__desc">Legal Officer</p>
-                </div>
-                <!-- /.member-info -->
-              </div>
-              <!-- /.member -->
-            </div>
-            <!-- /.col-lg-3 -->
-            <!-- Member #2 -->
-            <div class="col-sm-6 col-md-6 col-lg-3">
-              <div class="member">
-                <div class="member__img">
-                  <img src="assets/images/team/3.png" alt="member img" />
-                  <div class="member__hover">
-                    <div class="member__content-inner">
-                      <ul
-                        class="social__icons justify-content-center list-unstyled mb-0"
-                      >
-                        <li>
-                          <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-instagram"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                      </ul>
-                      <!-- /.social-icons -->
-                    </div>
-                    <!-- /.member-content-inner -->
-                  </div>
-                  <!-- /.member-hover -->
-                </div>
-                <!-- /.member-img -->
-                <div class="member__info">
-                  <h5 class="member__name">Maria Andaloro</h5>
-                  <p class="member__desc">HR Officer</p>
-                </div>
-                <!-- /.member-info -->
-              </div>
-              <!-- /.member -->
-            </div>
-            <!-- /.col-lg-3 -->
-            <!-- Member #3 -->
-            <div class="col-sm-6 col-md-6 col-lg-3">
-              <div class="member">
-                <div class="member__img">
-                  <img src="assets/images/team/5.png" alt="member img" />
-                  <div class="member__hover">
-                    <div class="member__content-inner">
-                      <ul
-                        class="social__icons justify-content-center list-unstyled mb-0"
-                      >
-                        <li>
-                          <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-instagram"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                      </ul>
-                      <!-- /.social-icons -->
-                    </div>
-                    <!-- /.member-content-inner -->
-                  </div>
-                  <!-- /.member-hover -->
-                </div>
-                <!-- /.member-img -->
-                <div class="member__info">
-                  <h5 class="member__name">Marian Chris</h5>
-                  <p class="member__desc">Global Sales</p>
-                </div>
-                <!-- /.member-info -->
-              </div>
-              <!-- /.member -->
-            </div>
-            <!-- /.col-lg-3 -->
-            <!-- Member #4 -->
-            <div class="col-sm-6 col-md-6 col-lg-3">
-              <div class="member">
-                <div class="member__img">
-                  <img src="assets/images/team/1.png" alt="member img" />
-                  <div class="member__hover">
-                    <div class="member__content-inner">
-                      <ul
-                        class="social__icons justify-content-center list-unstyled mb-0"
-                      >
-                        <li>
-                          <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-instagram"></i></a>
-                        </li>
-                        <li>
-                          <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                      </ul>
-                      <!-- /.social-icons -->
-                    </div>
-                    <!-- /.member-content-inner -->
-                  </div>
-                  <!-- /.member-hover -->
-                </div>
-                <!-- /.member-img -->
-                <div class="member__info">
-                  <h5 class="member__name">Jack Mudson</h5>
-                  <p class="member__desc">Manager</p>
-                </div>
-                <!-- /.member-info -->
-              </div>
-              <!-- /.member -->
-            </div>
-            <!-- /.col-lg-3 -->
-          </div>
-          <!-- /.row -->
-        </div>
-        <!-- /.container -->
-      </section>
       <!-- /.Team layout 2  -->
 
+      <section class="pt-120 bg-gray newsletter-layout-2">
+        <div
+          class="
+            col-sm-12 col-md-6 col-lg-4 col-xl-4
+            footer__widget footer__widget-newsletter
+          "
+        >
+          <h6 class="footer__widget-title">Newsletter</h6>
+          <div class="footer__widget-content">
+            <p>
+              Inscrivez-vous pour reçevoir les dernières actualités, réflexions
+              et informations de Imposur.
+            </p>
+            <form class="widget__newsletter-form">
+              <div class="form-group mb-0">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Votre adresse email"
+                />
+                <button type="submit" class="btn btn__primary">
+                  <i class="icon-arrow-right"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
       <!-- ========================
       Footer
     ========================== -->
@@ -577,21 +361,15 @@
           <div class="container">
             <div class="row">
               <div
-                class="col-sm-12 col-md-6 col-lg-3 col-xl-4 footer__widget footer__widget-about"
+                class="
+                  col-sm-12 col-md-6 col-lg-3 col-xl-4
+                  footer__widget footer__widget-about
+                "
               >
                 <div class="footer__widget-content">
-                  <img
-                    src="assets/images/logo/logofinal.png"
-                    alt="logo"
-                    class="mb-30"
-                  />
-                  <p class="mb-20">
-                    Un développeur de premier plan de projets commerciaux,
-                    industriels et résidentiels de catégorie A au Maroc et
-                    L'afrique du Nord. Depuis sa fondation, l'entreprise a
-                    doublé son chiffre d'affaires d'année en année avec son
-                    personnel.
-                  </p>
+                  <div class="socials-title footer__widget-title">
+                    REJOIGNEZ-NOUS SUR :
+                  </div>
                   <ul class="social__icons list-unstyled">
                     <li>
                       <a href="#"><i class="fa fa-facebook"></i></a>
@@ -602,13 +380,40 @@
                     <li>
                       <a href="#"><i class="fa fa-twitter"></i></a>
                     </li>
+                    <li>
+                      <a href="#"><i class="fa fa-youtube"></i></a>
+                    </li>
                   </ul>
                   <!-- /.social-icons -->
                 </div>
               </div>
               <!-- /.col-xl-4 -->
               <div
-                class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer__widget footer__widget-nav"
+                class="
+                  col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2
+                  footer__widget footer__widget-nav
+                "
+              >
+                <h6 class="footer__widget-title">Imposur</h6>
+                <div class="footer__widget-content">
+                  <nav>
+                    <ul class="list-unstyled">
+                      <li><a href="about-us.html">À Propos De Nous</a></li>
+                      <li><a href="leadership-team.html">Notre équipe</a></li>
+                      <!-- <li><a href="blog.html">Actualités & Media</a></li> -->
+                      <li><a href="projects-grid.html">Projets</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="careers.html">Carrières</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <!-- /.footer-widget-content -->
+              </div>
+              <div
+                class="
+                  col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2
+                  footer__widget footer__widget-nav
+                "
               >
                 <h6 class="footer__widget-title">Services</h6>
                 <div class="footer__widget-content">
@@ -626,53 +431,49 @@
                 </div>
                 <!-- /.footer-widget-content -->
               </div>
-              <!-- /.col-xl-2 -->
               <div
-                class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer__widget footer__widget-nav"
+                class="
+                  col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2
+                  footer__widget footer__widget-nav
+                "
               >
-                <h6 class="footer__widget-title">Company</h6>
+                <h6 class="footer__widget-title">Projets</h6>
                 <div class="footer__widget-content">
                   <nav>
                     <ul class="list-unstyled">
-                      <li><a href="about-us.html">À Propos De Nous</a></li>
-                      <li><a href="leadership-team.html">Notre équipe</a></li>
-                      <!-- <li><a href="blog.html">Actualités & Media</a></li> -->
-                      <li><a href="projects-grid.html">Projets</a></li>
-                      <li><a href="contact.html">Contact</a></li>
-                      <li><a href="careers.html">Carrières</a></li>
+                      <li><a href="#">Pompage</a></li>
+                      <li><a href="#">Automatisme</a></li>
+                      <li><a href="#">Dimensionnement des ouvrages</a></li>
+                      <li>
+                        <a href="#">Developpement informatisé d’automatisme</a>
+                      </li>
+                      <li><a href="#">Génie civil</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <!-- /.footer-widget-content -->
+              </div>
+              <div
+                class="
+                  col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2
+                  footer__widget footer__widget-nav
+                "
+              >
+                <h6 class="footer__widget-title">Produits et Partenaires</h6>
+                <div class="footer__widget-content">
+                  <nav>
+                    <ul class="list-unstyled">
+                      <li><a href="#">Produits</a></li>
+                      <li><a href="#">Partenaires</a></li>
                     </ul>
                   </nav>
                 </div>
                 <!-- /.footer-widget-content -->
               </div>
               <!-- /.col-xl-2 -->
-              <div
-                class="col-sm-12 col-md-6 col-lg-4 col-xl-4 footer__widget footer__widget-newsletter"
-              >
-                <h6 class="footer__widget-title">Newsletter</h6>
-                <div class="footer__widget-content">
-                  <p>
-                    Inscrivez-vous pour reçevoir les dernières actualités,
-                    réflexions et informations de Imposur.
-                  </p>
-                  <form class="widget__newsletter-form">
-                    <div class="form-group mb-0">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Your Email Address"
-                      />
-                      <button type="submit" class="btn btn__primary">
-                        <i class="icon-arrow-right"></i>
-                      </button>
-                    </div>
-                  </form>
-                </div>
-                <!-- /.footer-widget-content -->
-                <p class="text-right footer__more-info mt-20 mb-0">
-                  Have a question? <a href="#">Click here</a>
-                </p>
-              </div>
+
+              <!-- /.col-xl-2 -->
+
               <!-- /.col-xl-4 -->
             </div>
             <!-- /.row -->
@@ -684,11 +485,22 @@
           <div class="container">
             <div class="row align-items-center">
               <div
-                class="col-sm-12 col-md-12 col-lg-12 d-flex flex-wrap justify-content-between"
+                class="
+                  col-sm-12 col-md-12 col-lg-12
+                  d-flex
+                  flex-wrap
+                  justify-content-between
+                "
               >
                 <nav>
                   <ul
-                    class="footer__copyright-links list-unstyled d-flex flex-wrap mb-0"
+                    class="
+                      footer__copyright-links
+                      list-unstyled
+                      d-flex
+                      flex-wrap
+                      mb-0
+                    "
                   >
                     <li><a href="#">Termes & Conditions </a></li>
                     <li><a href="#">Politique de Confidentialité</a></li>
