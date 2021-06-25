@@ -60,9 +60,7 @@
             <div class="collapse navbar-collapse" id="mainNavigation">
               <ul class="navbar-nav">
                 <li class="nav__item with-dropdown">
-                  <a
-                    href="index.html"
-                    class="dropdown-toggle nav__item-link active"
+                  <a href="index.html" class="dropdown-toggle nav__item-link"
                     >Accueil</a
                   >
                 </li>
@@ -163,28 +161,15 @@
                   <!-- /.dropdown-menu -->
                 </li>
                 <li class="nav__item with-dropdown">
-                  <a class="dropdown-toggle nav__item-link"
-                    >Produits et Partenaires<i
-                      class="fa fa-angle-down down-arrow"
-                    ></i
-                  ></a>
-                  <i class="fa fa-angle-down" data-toggle="dropdown"></i>
-                  <ul class="dropdown-menu">
-                    <li class="nav__item">
-                      <a href="produits.html" class="nav__item-link"
-                        >Produits</a
-                      >
-                    </li>
-                    <li class="nav__item">
-                      <a href="partenaires.html" class="nav__item-link"
-                        >Partenaires</a
-                      >
-                    </li>
-                  </ul>
+                  <a
+                    href="produits-et-partenaires.html"
+                    class="dropdown-toggle nav__item-link active"
+                    >Produits et partenaires
+                  </a>
                 </li>
                 <li class="nav__item with-dropdown">
                   <a
-                    href="expert-projets-clés-en-mains.html"
+                    href="le-spécialiste-des-projets-clé-en-main.html"
                     class="dropdown-toggle nav__item-link"
                     >Expert Projets "clés en mains"</a
                   >
@@ -252,45 +237,29 @@
        page title 
     =========================== -->
       <section
+        id="pageTitleModified2"
         class="
           page-title page-title-layout4
-          bg-overlay bg-overlay-4 bg-parallax
+          bg-overlay bg-overlay-4
           text-center
-          modified
         "
       >
-        <div class="container">
-          <h2 style="color: white">Produits et partenaires d'Imposur</h2>
-
-          <!-- <p>Histoire, vision, valeurs</p> -->
-          <!-- <div class="row"> -->
-          <!-- <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 offset-xl-3">
-          <h1 class="pagetitle__heading">à propos de nous</h1>
-          <nav>
-            <ol class="breadcrumb justify-content-center mb-0">
-              <li class="breadcrumb-item">
-                <a href="index.html">Accueil</a>
-              </li>
-              <li class="breadcrumb-item">
-                <a href="about-us.html">Imposur</a>
-              </li>
-              <li class="breadcrumb-item active" aria-current="page">
-                À Propos De Nous
-              </li>
-            </ol>
-          </nav>
-        </div> -->
-          <!-- /.col-xl-6 -->
-          <!-- </div> -->
-          <!-- /.row -->
-        </div>
-        <div class="right-container">
+        <div class="bg-img">
           <img
-            src="assets/images/backgrounds/mountains.png"
-            alt="about"
-            class=""
-            style="height: 100%; max-width: unset"
+            src="assets/images/backgrounds/20190310_174418.jpg"
+            alt="background"
           />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="">
+              <h1 class="pagetitle__heading uppercase">
+                Produits et partenaires d'Imposur
+              </h1>
+            </div>
+            <!-- /.col-xl-6 -->
+          </div>
+          <!-- /.row -->
         </div>
         <!-- /.container -->
       </section>
@@ -301,7 +270,7 @@
     ============================= -->
       <section class="portfolio-grid">
         <div class="container">
-          <div class="row">
+          <!-- <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
               <ul
                 class="
@@ -312,45 +281,91 @@
                   list-unstyled
                 "
               >
-                <!-- <li>
-                  <a class="filter active" href="#" data-filter="all"
-                    >Tous les projets</a
-                  >
-                </li> -->
                 <li>
-                  <a class="filter" href="#" data-filter=".filter-produits"
-                    >Produits</a
+                  <a class="filter active" href="#" data-filter="all"
+                    >Tous les partenaires</a
                   >
                 </li>
                 <li>
-                  <a class="filter" href="#" data-filter=".filter-partenaires"
-                    >Partenaires</a
+                  <a
+                    class="filter"
+                    href="#"
+                    data-filter=".filter-etude-et-expertise"
+                    >Étude & Expertise</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="filter"
+                    href="#"
+                    data-filter=".filter-mise-en-valeur-des-terrains"
+                    >Mise en valeur des terrains</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="filter"
+                    href="#"
+                    data-filter=".filter-realisation-des-bassins"
+                    >Réalisation des bassins</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="filter"
+                    href="#"
+                    data-filter=".filter-projets-dirrigation-et-daspersion"
+                    >Projets d’irrigation et d’aspersion</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="filter"
+                    href="#"
+                    data-filter=".filter-stations-de-pompage"
+                    >Stations de pompage</a
+                  >
+                </li>
+                <li>
+                  <a class="filter" href="#" data-filter=".filter-espaces-verts"
+                    >Espaces verts</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="filter"
+                    href="#"
+                    data-filter=".filter-automatisation-des-systemes-dirrigation"
+                    >Automatisation des systèmes d’irrigation</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="filter"
+                    href="#"
+                    data-filter=".filter-projets-cle-en-main"
+                    >Projets "Clé en Main"</a
                   >
                 </li>
               </ul>
-              <!-- /.portfolio-filter  -->
             </div>
-            <!-- /.col-lg-12 -->
-          </div>
+          </div> -->
           <!-- /.row -->
           <div id="filtered-items-wrap" class="row">
             <!-- portfolio item #1 -->
             <div class="col-sm-6 col-md-6 col-lg-4 mix filter-renovations">
-              <div class="portfolio-item">
+              <div class="portfolio-item modified">
                 <div class="portfolio__img">
                   <img
-                    src="assets/images/portfolio/grid/1.jpg"
+                    src="assets/images/clients/caudal.jpg"
                     alt="portfolio img"
                   />
                 </div>
                 <!-- /.portfolio-img -->
                 <div class="portfolio__content">
                   <h4 class="portfolio__title">
-                    <a href="#">The Fallingwater House</a>
+                    <a href="#">Caudal</a>
                   </h4>
-                  <div class="portfolio__cat">
-                    <a href="#">Building</a><a href="#">Interior</a>
-                  </div>
                   <!-- /.portfolio-cat -->
                 </div>
                 <!-- /.portfolio-content -->
@@ -360,21 +375,18 @@
             <!-- /.col-lg-4 -->
             <!-- portfolio item #2 -->
             <div class="col-sm-6 col-md-6 col-lg-4 mix filter-interior">
-              <div class="portfolio-item">
-                <div class="portfolio__img">
+              <div class="portfolio-item modified">
+                <div class="portfolio__img" style="padding: 5rem">
                   <img
-                    src="assets/images/portfolio/grid/2.jpg"
+                    src="assets/images/clients/chamsa.png"
                     alt="portfolio img"
                   />
                 </div>
                 <!-- /.portfolio-img -->
                 <div class="portfolio__content">
                   <h4 class="portfolio__title">
-                    <a href="#">The Guggenheim Museum</a>
+                    <a href="#">Chamsa</a>
                   </h4>
-                  <div class="portfolio__cat">
-                    <a href="#">Construction</a><a href="#">Engineering</a>
-                  </div>
                   <!-- /.portfolio-cat -->
                 </div>
                 <!-- /.portfolio-content -->
@@ -384,21 +396,18 @@
             <!-- /.col-lg-4 -->
             <!-- portfolio item #3 -->
             <div class="col-sm-6 col-md-6 col-lg-4 mix filter-building">
-              <div class="portfolio-item">
+              <div class="portfolio-item modified">
                 <div class="portfolio__img">
                   <img
-                    src="assets/images/portfolio/grid/3.jpg"
+                    src="assets/images/clients/cotexa.jpg"
                     alt="portfolio img"
                   />
                 </div>
                 <!-- /.portfolio-img -->
                 <div class="portfolio__content">
                   <h4 class="portfolio__title">
-                    <a href="#">Neue National Galerie</a>
+                    <a href="#">Cotexa</a>
                   </h4>
-                  <div class="portfolio__cat">
-                    <a href="#">Renovation</a><a href="#">Architecture</a>
-                  </div>
                   <!-- /.portfolio-cat -->
                 </div>
                 <!-- /.portfolio-content -->
@@ -408,21 +417,18 @@
             <!-- /.col-lg-4 -->
             <!-- portfolio item #4 -->
             <div class="col-sm-6 col-md-6 col-lg-4 mix filter-architecture">
-              <div class="portfolio-item">
+              <div class="portfolio-item modified">
                 <div class="portfolio__img">
                   <img
-                    src="assets/images/portfolio/grid/4.jpg"
+                    src="assets/images/clients/hidra.jpg"
                     alt="portfolio img"
                   />
                 </div>
                 <!-- /.portfolio-img -->
                 <div class="portfolio__content">
                   <h4 class="portfolio__title">
-                    <a href="#">Sagrada Familia</a>
+                    <a href="#">Hidra</a>
                   </h4>
-                  <div class="portfolio__cat">
-                    <a href="#">Construstion</a><a href="#">Cuilding</a>
-                  </div>
                   <!-- /.portfolio-cat -->
                 </div>
                 <!-- /.portfolio-content -->
@@ -432,21 +438,18 @@
             <!-- /.col-lg-4 -->
             <!-- portfolio item #5 -->
             <div class="col-sm-6 col-md-6 col-lg-4 mix filter-construction">
-              <div class="portfolio-item">
+              <div class="portfolio-item modified">
                 <div class="portfolio__img">
                   <img
-                    src="assets/images/portfolio/grid/5.jpg"
+                    src="assets/images/clients/hidroten.png"
                     alt="portfolio img"
                   />
                 </div>
                 <!-- /.portfolio-img -->
                 <div class="portfolio__content">
                   <h4 class="portfolio__title">
-                    <a href="#">Heydar Aliyev Center</a>
+                    <a href="#">Hidroten</a>
                   </h4>
-                  <div class="portfolio__cat">
-                    <a href="#">Engineering</a><a href="#">Renovation</a>
-                  </div>
                   <!-- /.portfolio-cat -->
                 </div>
                 <!-- /.portfolio-content -->
@@ -456,21 +459,18 @@
             <!-- /.col-lg-4 -->
             <!-- portfolio item #6 -->
             <div class="col-sm-6 col-md-6 col-lg-4 mix filter-interior">
-              <div class="portfolio-item">
+              <div class="portfolio-item modified">
                 <div class="portfolio__img">
                   <img
-                    src="assets/images/portfolio/grid/6.jpg"
+                    src="assets/images/clients/lama.png"
                     alt="portfolio img"
                   />
                 </div>
                 <!-- /.portfolio-img -->
                 <div class="portfolio__content">
                   <h4 class="portfolio__title">
-                    <a href="#">Cathedral of Brasilia</a>
+                    <a href="#">Lama</a>
                   </h4>
-                  <div class="portfolio__cat">
-                    <a href="#">Building</a><a href="#">Modern</a>
-                  </div>
                   <!-- /.portfolio-cat -->
                 </div>
                 <!-- /.portfolio-content -->
@@ -479,29 +479,19 @@
             </div>
             <!-- /.col-lg-4 -->
             <!-- portfolio item #7 -->
-            <div
-              class="
-                col-sm-6 col-md-6 col-lg-4
-                mix
-                filter-construction
-                portfolio-hidden
-              "
-            >
-              <div class="portfolio-item">
+            <div class="col-sm-6 col-md-6 col-lg-4 mix filter-construction">
+              <div class="portfolio-item modified">
                 <div class="portfolio__img">
                   <img
-                    src="assets/images/portfolio/grid/1.jpg"
+                    src="assets/images/clients/maher.png"
                     alt="portfolio img"
                   />
                 </div>
                 <!-- /.portfolio-img -->
                 <div class="portfolio__content">
                   <h4 class="portfolio__title">
-                    <a href="#">Neue National Galerie</a>
+                    <a href="#">Maher</a>
                   </h4>
-                  <div class="portfolio__cat">
-                    <a href="#">construction</a>
-                  </div>
                   <!-- /.portfolio-cat -->
                 </div>
                 <!-- /.portfolio-content -->
@@ -510,29 +500,19 @@
             </div>
             <!-- /.col-lg-4 -->
             <!-- portfolio item #8 -->
-            <div
-              class="
-                col-sm-6 col-md-6 col-lg-4
-                mix
-                filter-building
-                portfolio-hidden
-              "
-            >
-              <div class="portfolio-item">
+            <div class="col-sm-6 col-md-6 col-lg-4 mix filter-building">
+              <div class="portfolio-item modified">
                 <div class="portfolio__img">
                   <img
-                    src="assets/images/portfolio/grid/3.jpg"
+                    src="assets/images/clients/marbroer.jpg"
                     alt="portfolio img"
                   />
                 </div>
                 <!-- /.portfolio-img -->
                 <div class="portfolio__content">
                   <h4 class="portfolio__title">
-                    <a href="#">Villy Manufacturing Inc</a>
+                    <a href="#">Marbroer</a>
                   </h4>
-                  <div class="portfolio__cat">
-                    <a href="#">Engineering</a><a href="#">Auto</a>
-                  </div>
                   <!-- /.portfolio-cat -->
                 </div>
                 <!-- /.portfolio-content -->
@@ -541,29 +521,19 @@
             </div>
             <!-- /.col-lg-4 -->
             <!-- portfolio item #9 -->
-            <div
-              class="
-                col-sm-6 col-md-6 col-lg-4
-                mix
-                filter-renovations
-                portfolio-hidden
-              "
-            >
-              <div class="portfolio-item">
+            <div class="col-sm-6 col-md-6 col-lg-4 mix filter-renovations">
+              <div class="portfolio-item modified">
                 <div class="portfolio__img">
                   <img
-                    src="assets/images/portfolio/grid/2.jpg"
+                    src="assets/images/clients/rabita.jpg"
                     alt="portfolio img"
                   />
                 </div>
                 <!-- /.portfolio-img -->
                 <div class="portfolio__content">
                   <h4 class="portfolio__title">
-                    <a href="#">Highway Energy Station</a>
+                    <a href="#">Rabita</a>
                   </h4>
-                  <div class="portfolio__cat">
-                    <a href="#">Construction</a><a href="#">Energy</a>
-                  </div>
                   <!-- /.portfolio-cat -->
                 </div>
                 <!-- /.portfolio-content -->
@@ -573,17 +543,6 @@
             <!-- /.col-lg-4 -->
           </div>
           <!-- /.row -->
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-              <button
-                type="button"
-                class="btn btn__link btn__loadMore loadMoreportfolio"
-              >
-                <span>Afficher plus</span><i>+</i>
-              </button>
-            </div>
-            <!-- /.col-lg-12 -->
-          </div>
           <!-- /.row -->
         </div>
         <!-- /.container -->

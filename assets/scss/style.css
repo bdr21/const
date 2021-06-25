@@ -4610,7 +4610,7 @@ textarea.form-control {
 }
 
 .portfolio-standard .portfolio-item .portfolio__content {
-  padding: 36px 30px 0 35px;
+  padding: 36px 0 0 0;
 }
 
 .portfolio-standard .portfolio-item .btn__loadMore {
@@ -4636,7 +4636,7 @@ textarea.form-control {
 }
 
 .portfolio-standard .portfolio-item .btn__loadMore:hover i {
-  color: #ffffff;
+  color: #36bde0;
 }
 
 .portfolio-standard .portfolio-item .btn__loadMore:hover:after {
@@ -7675,6 +7675,7 @@ textarea.form-control {
   /* transform: translate(-50%, -50%); */
   transform: translateX(-50%);
   top: 0;
+  opacity: .7;
   /* height: 99%; */
 }
 #water-drop_text {
@@ -7938,10 +7939,6 @@ padding: 1rem 15px;
 padding-top: 3rem;
 }
 .banner-layout2.modified .container .row #col2 {
-  background-image: url(../images/sliders/imposur.jpg);
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
   width: 50%;
   order: 1;
   padding: 1rem 0;
@@ -7950,6 +7947,10 @@ padding-top: 3rem;
 .banner-layout2.modified .container .row #col1 {
   justify-content: center ;
   align-items: center;
+  background-image: url(../images/sliders/imposur.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 .no-margin-left {
   margin-left: 0;
@@ -8041,13 +8042,14 @@ margin-bottom: 5vh;
 .logo-top-container.modified {
   /* max-height: 20vh; */
   justify-content: center;
+  padding-bottom: 1rem;
 }
 .logo-top {
   height: 10rem;
 }
 .row.coldir.modified .heading__desc {
   font-size: 1.5rem;
-  font-style: italic;
+  /* font-style: italic; */
   font-family: CandorBold;
     color: black;
     text-align: center;
@@ -8248,4 +8250,57 @@ margin-bottom: 5vh;
     flex-direction: column;
     align-items: center;
   }
+  .footer__widget-nav li a, .footer__copyright-links li a {
+    text-align: center;
+  }
+}
+.col-md-3-all-screens {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.service-item.modified {
+  margin-bottom: unset;
+}
+.service-item.modified .service__title {
+  padding-bottom: unset;
+  margin-bottom: unset;
+}
+.service-item.modified .service__title::after {
+  content: unset;
+}
+.service-item.modified .btn__link {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1rem;
+  align-items: stretch;
+}
+.services-grid .col-md-6 {
+  max-width: unset;
+  grid-column: span 1;
+}
+.row-of-projects .portfolio-item .portfolio__title , .portfolio-item .portfolio__cat{
+  padding: 0 30px 0 35px;
+}
+.row-of-projects .portfolio-item .portfolio__cat {
+  margin-bottom: 1rem;
+}
+.row-of-projects .btn__loadMore i:after {
+  background: white;
+}
+.row-of-projects .portfolio-standard .portfolio-item .btn__loadMore:hover i {
+  color: #36bde0;
+}
+.row-of-projects .slick-arrow.slick-next {
+  right: -5%;
+  transform: scaleY(0.75);
+}
+.row-of-projects .slick-arrow.slick-prev {
+  left: -5%;
+  transform: scaleY(0.75);
 }
